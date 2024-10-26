@@ -23,6 +23,6 @@ PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="gts9wifixx-user 14 UP1A.231005.007 X710XXU4BXHB release-keys"
+    BuildDesc=$(call normalize-path-list,"gts9wifixx-user 14 UP1A.231005.007 X710XXU4BXHB release-keys")
 
 BUILD_FINGERPRINT := samsung/gts9wifixx/gts9wifi:14/UP1A.231005.007/X710XXU4BXHB:user/release-keys
