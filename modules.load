@@ -150,6 +150,7 @@ qti_userspace_cdev.ko
 sdpm_clk.ko
 qcom_edac.ko
 qcom_lpm.ko
+sdhci-msm-sec.ko
 leds-qti-flash.ko
 leds-qti-tri-led.ko
 memlat_vendor.ko
