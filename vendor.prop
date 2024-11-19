@@ -8,7 +8,7 @@ ro.crypto.metadata_init_delete_all_keys.enabled=true
 
 # udfpsProps
 ro.vendor.fingerprint.type=udfps_optical
-ro.vendor.fingerprint.sensor_location=800|2300|90
+ro.vendor.fingerprint.sensor_location=800|2374|80
 ro.vendor.fingerprint.request_touch_event=true
 
 # surfaceflinger
