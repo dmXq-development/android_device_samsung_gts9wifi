@@ -207,7 +207,7 @@ thermal_minidump.ko
 qcom_edac.ko
 qcom-cpufreq-hw.ko
 qcom_lpm.ko
-sdhci-msm.ko
+sdhci-msm-sec.ko
 cqhci.ko
 leds-qti-flash.ko
 leds-qti-tri-led.ko
