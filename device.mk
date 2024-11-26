@@ -15,6 +15,10 @@ PRODUCT_CHARACTERISTICS := tablet
 TARGET_SCREEN_HEIGHT := 1600
 TARGET_SCREEN_WIDTH := 2560
 
+# Set boot animation orientation and default display rotation to be landscape.
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.bootanim.set_orientation_logical_0=ORIENTATION_90
+
 # Init
 PRODUCT_PACKAGES += \
     init.gts9wifi.rc
