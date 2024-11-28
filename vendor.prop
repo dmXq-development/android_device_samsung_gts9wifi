@@ -35,3 +35,6 @@ ro.carrier=wifi-only
 
 # Brightness
 persist.sys.brightness.low.gamma=true
+
+# Games
+ro.surface_flinger.game_default_frame_rate_override=120
