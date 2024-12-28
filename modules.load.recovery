@@ -133,6 +133,7 @@ lt9611uxc.ko
 regmap-spmi.ko
 qseecom_proxy.ko
 qcom-spmi-pmic.ko
+sec_ap_pmic.ko
 qcom_dma_heaps.ko
 ufs_qcom.ko
 ufshcd-crypto-qti.ko
@@ -155,6 +156,7 @@ phy-msm-snps-eusb2.ko
 phy-msm-m31-eusb2.ko
 dwc3-msm.ko
 ehset.ko
+lvstest.ko
 usb_f_cdev.ko
 usb_f_ccid.ko
 usb_f_qdss.ko
@@ -205,10 +207,12 @@ qti_userspace_cdev.ko
 sdpm_clk.ko
 thermal_minidump.ko
 qcom_edac.ko
+cpufreq_limit.ko
 qcom-cpufreq-hw.ko
 qcom_lpm.ko
 sdhci-msm-sec.ko
 cqhci.ko
+leds-gpio.ko
 leds-qti-flash.ko
 leds-qti-tri-led.ko
 pmu_vendor.ko
@@ -241,6 +245,7 @@ gh_rm_drv.ko
 gh_irq_lend.ko
 gh_mem_notifier.ko
 gunyah.ko
+extcon-ktm5030.ko
 qcom-spmi-adc5-gen3.ko
 qcom-vadc-common.ko
 industrialio-buffer-cb.ko
@@ -252,6 +257,8 @@ qnoc-kalama.ko
 icc-rpmh.ko
 qnoc-qos.ko
 sec_class.ko
+sec_key_notifier.ko
+sec_log_buf.ko
 switch_class.ko
 switch_gpio.ko
 vibrator_vib_info.ko
