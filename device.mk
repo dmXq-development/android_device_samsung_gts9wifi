@@ -47,6 +47,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/idc/Vendor_04e8_Product_a035.idc:vendor/usr/idc/Vendor_04e8_Product_a035.idc
 
+# ANGLE
+PRODUCT_PACKAGES += \
+    ANGLE
+
 # Inherit from the common OEM chipset makefile.
 $(call inherit-product, device/samsung/sm8550-common/common.mk)
 
