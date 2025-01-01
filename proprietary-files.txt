@@ -226,9 +226,6 @@ vendor/firmware/qca6490/bdwlang.elf10
 vendor/firmware/qca6490/m3.bin
 vendor/firmware/qca6490/regdb.bin
 
-# WiFi
-vendor/etc/wifi/qca6490/WCNSS_qcom_cfg.ini
-
 # VPU
 vendor/firmware/vpu30_4v.mbn
 vendor/firmware/abov/a96t396_gts9_wifi.bin
