@@ -8,6 +8,9 @@
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 
+# Tablet
+TARGET_IS_TABLET := true
+
 # Characteristics
 PRODUCT_CHARACTERISTICS := tablet
 

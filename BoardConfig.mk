@@ -7,6 +7,9 @@
 # Include the common OEM chipset BoardConfig.
 include device/samsung/sm8550-common/BoardConfigCommon.mk
 
+# Tablet
+TARGET_IS_TABLET := true
+
 DEVICE_PATH := device/samsung/gts9wifi
 
 # Assert
